@@ -1,10 +1,12 @@
 .App {
   display: flex;
+  flex-direction: column;
   height: 50vh;
   justify-content: center;
   align-items: center;
-  justify-content: space-evenly;
   background-color: rgb(171, 244, 155);
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
 }
 
 #listContainer {
@@ -17,8 +19,8 @@
 
 .listItemContainer {
   display: flex;
-  width: 50%;
-  justify-content: space-around;
+  width: 95%;
+  justify-content: space-between;
   align-items: center;
   background-color: red;
   margin-top: 10px;
@@ -29,4 +31,23 @@ button {
   border: 5px outset;
   margin-right: 10px;
   margin-left: 10px;
+}
+
+#itemEntryBarContainer {
+  display: flex;
+  width: 50%;
+  height: 10%;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(115, 80, 242);
+}
+
+.listItemText {
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.listItemButtonContainer {
+  display: flex;
+  height: 30px;
 }
