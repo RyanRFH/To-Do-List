@@ -1,7 +1,6 @@
 .App {
   display: flex;
   flex-direction: column;
-  height: 50vh;
   justify-content: center;
   align-items: center;
   background-color: rgb(171, 244, 155);
@@ -9,7 +8,12 @@
   font-weight: bold;
 }
 
-#listContainer {
+#title {
+  margin: 0px;
+  color: rgb(112, 88, 236);
+}
+
+.listContainer {
   display: flex;
   flex-direction: column;
   width: 50%;
@@ -22,7 +26,7 @@
   width: 95%;
   justify-content: space-between;
   align-items: center;
-  background-color: red;
+  background-color: rgb(245, 56, 56);
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -50,4 +54,12 @@ button {
 .listItemButtonContainer {
   display: flex;
   height: 30px;
+}
+
+.buttonArchived {
+  display: none;
+}
+
+.completedTask {
+  background-color: rgb(49, 250, 62);
 }
